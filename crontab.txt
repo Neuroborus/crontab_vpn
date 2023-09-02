@@ -1,0 +1,2 @@
+59 23 * * * cd '/home/user/proj/OpenVPN' && bash start_vpn.sh > last_start.txt
+0 4 * * * cd '/home/user/proj/OpenVPN' && bash stop_vpn.sh && echo "$(date +\%Y-\%m-\%d\ \%H:\%M:\%S) Stopped!" > last_stop.txt
